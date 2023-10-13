@@ -1,0 +1,204 @@
+.top_banner {
+  background-image: url(https://w.tw.mawebcenters.com/0970018110/image/information_banner.webp);
+}
+
+.line_blue_bg {
+  width: 97.005px;
+  height: 3px;
+  background-color: #002448;
+  margin-left: -40px;
+}
+
+/* 切換選項 */
+
+.information_switchtab {
+  width: 80%;
+  margin: 90px auto;
+}
+
+.switch_title {
+}
+
+.tap_information {
+  margin-top: 100px;
+}
+
+.tap_information ul {
+    max-width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.tap_information li {
+  background-color: #0172ce;
+  cursor: pointer;
+  width: 200px;
+  height: 80px;
+}
+
+.tap_information h4 {
+  color: #fff;
+  text-align: center;
+  line-height: 80px;
+}
+
+/* 地圖 */
+
+.map_information {
+  background-color: #00478d;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.map_left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map_contant_left {
+  height: 50%;
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  margin: 50px;
+}
+
+.map_contant_left img {
+  width: auto;
+}
+
+.map_text {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.map_text h1,
+h4,
+h5 {
+  color: #fff;
+  text-align: center;
+}
+.map_text h4 {
+  margin-bottom: 15px;
+}
+
+.lane_information,
+.bridge_information,
+.market_information {
+  display: none;
+}
+
+/* RWD */
+@media only screen and (max-width: 1660px) {
+}
+
+@media only screen and (max-width: 1366px) {
+}
+
+@media only screen and (max-width: 1266px) {
+}
+
+@media only screen and (max-width: 1024px) {
+  .map_contant_left {
+    gap: 20px;
+  }
+  .map_text {
+    width: 100%;
+  }
+  .map_contant_left img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  .information_switchtab {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: flex-start;
+    width: 95%;
+  }
+
+  .switch_title {
+    margin: 0 auto;
+  }
+
+  .tap_information {
+    margin-top: 120px;
+  }
+
+  .tap_information ul {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .map_information {
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+  }
+
+  .map_left {
+    height: 50%;
+    width: 100%;
+  }
+
+  .map_contant_left {
+    height: 85%;
+  }
+
+  .map_contant_left {
+    gap: 20px;
+  }
+  iframe {
+    width: 100%;
+    height: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .tap_information {
+    margin-top: 120px;
+  }
+
+  .tap_information li {
+    height: 60px;
+}
+  .tap_information h4 {
+    font-size: 20px;
+    line-height: 60px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+    .tap_information li {
+        height: 50px;
+    }
+    .tap_information h4 {
+        font-size: 16px;
+        line-height: 50px;
+    }
+
+    .map_text h1{
+        font-size: 25px;
+    }
+    .map_text h4{
+        font-size: 20px;
+    }
+    .map_text h5{
+        font-size: 16px;
+    }
+
+
+}

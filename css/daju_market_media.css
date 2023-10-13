@@ -1,0 +1,172 @@
+.top_banner {
+  background-image: url(https://w.tw.mawebcenters.com/0970018110/image/market_banner.webp);
+}
+
+.line_blue_bg {
+  width: 97.005px;
+  height: 3px;
+  background-color: #002448;
+  margin-left: -40px;
+}
+
+/* 鸚鵡螺市集 */
+
+.market {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto;
+  flex-direction: column;
+  margin: 70px auto;
+}
+
+.market_introduce {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.market_introduce img{
+    width: 500px;
+}
+
+.media {
+  background: #00478d;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  align-items: center;
+}
+
+.line_white_bg {
+  width: 97.005px;
+  height: 3px;
+  background-color: #ffffff;
+  margin-left: -40px;
+}
+
+.media_title {
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.media_title h1 {
+  color: #ffffff;
+}
+
+.media_block {
+  width: 80%;
+}
+
+.media_block ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.media_block li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+
+  width: 350px;
+  height: 455px;
+  background-color: #fff;
+}
+
+.media_li {
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.media_li img {
+  width: 308px;
+  height: 205px;
+}
+
+.media_text {
+  padding: 14px 0;
+}
+.more a{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+  color: #000;
+  font-size: 17px;
+  letter-spacing: 6.9px;
+  margin: 0px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.more svg {
+  margin-right: -22px;
+}
+
+.more h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.more:hover a, .more:hover svg circle {
+  color: #00478d; /* 更改文本颜色 */
+  stroke: #00478d; /* 更改圆圈描边颜色 */
+}
+
+
+
+
+/* RWD */
+@media only screen and (max-width: 1660px) {
+}
+
+@media only screen and (max-width: 1366px) {
+    .market_introduce {
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+}
+
+@media only screen and (max-width: 1266px) {
+    .media_block {
+        width: 90%;
+    }
+}
+
+@media only screen and (device-width: 1024px) and (device-height: 720px) {
+}
+
+@media only screen and (min-width: 768px) and (min-height: 1024px) {
+    .media_block {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 769px) {
+    .market_introduce {
+        width: 90%;
+        margin-top: 40px;
+    }
+    
+    .market_introduce img {
+        width: 100%;
+    }
+
+    .market_introduce {
+        gap: 40px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+}
+
+@media only screen and (max-width: 430px) {
+}

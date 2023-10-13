@@ -1,0 +1,239 @@
+.top_banner {
+  background-image: url(/images/about_banner.png);
+}
+
+.line_white {
+  width: 198px;
+  height: 2px;
+  background-color: #ffffff;
+  margin-left: -50px;
+}
+
+/* 大聚介紹 */
+.content_about_block {
+  background-color: #002448;
+  width: 60%;
+  padding: 50px;
+  gap: 30px;
+  margin-left: 7%;
+  margin-top: -145px;
+  margin-bottom: 150px;
+}
+
+.content_about_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content_title_about h1 {
+  color: #ffffff;
+}
+
+.content_about_text img {
+  width: 160px;
+}
+
+.about_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about_title P {
+  color: #ffffff;
+}
+
+.about_title_text1 {
+  margin: 30px 0;
+}
+
+swiper-container {
+  width: 240px;
+  height: 320px;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff; /* 设置背景颜色 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+swiper-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  transition-timing-function: var(--swiper-wrapper-transition-timing-function,initial);
+  box-sizing: content-box;
+  align-items: flex-end;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-wrapper {
+
+}
+ 
+.slide_text {
+  background-image: url(/images/slide_img.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 30px;
+  gap: 20px;
+  height: 320px;
+  justify-content: center;
+}
+
+.slide_text p{
+  color: #002448;
+  text-align: center;
+}
+
+
+/* 橫向滾動店家 */
+/* Inspired by this pen by Pieter Biesemans https://codepen.io/pieter-biesemans/pen/BQBWXX and My Mother Before Me project http://mymotherbeforeme.com/ */
+
+
+/* hide scrollbar */
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-button {
+  width: 1px;
+  height: 1px;
+}
+.external {
+  /* overflow: hidden; */
+  height: 100vh;
+  margin-top: 100px;
+}
+
+.horizontal-scroll-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vh;
+  transform: rotate(-90deg) translate3d(0,-100vh,0);
+  transform-origin: right top;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0;
+  height: 100vw;
+  perspective: 1px;
+	transform-style: preserve-3d;
+  padding-bottom: 10rem;
+  box-sizing: border-box;
+  background: #002448;
+}
+.img-wrapper {
+  transform: rotate(90deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+  transform-origin: 50% 50%;
+  transform: rotate(90deg) translateZ(.1px) scale(0.9) translateX(0px) translateY(-3vh);
+  transition: 1s;
+}
+
+.img-wrapper:hover {
+ min-height: 65vh;
+} 
+
+.slower {
+  transform: rotate(90deg) translateZ(-.2px) scale(1.1) translateX(0%) translateY(-10vh);
+}
+.slower1 {
+  transform: rotate(90deg) translateZ(-.25px) scale(1.05) translateX(0%) translateY(8vh);
+}
+.slower2 {
+  transform: rotate(90deg) translateZ(-.3px) scale(1.3) translateX(0%) translateY(2vh);
+}
+.slower-down {
+  transform: rotate(90deg) translateZ(-.2px) scale(1.1) translateX(0%) translateY(16vh) ;
+}
+.faster {
+  transform: rotate(90deg) translateZ(.15px) scale(0.8) translateX(0%) translateY(14vh) ;
+}
+.faster1 {
+  transform: rotate(90deg) translateZ(.05px) scale(0.8) translateX(0%) translateY(10vh) ;
+}
+.fastest {
+  transform: rotate(90deg) translateZ(.22px) scale(0.7) translateX(-10vh) translateY(-15vh) ;
+}
+.vertical {
+   transform: rotate(90deg) translateZ(-.15px) scale(1.15) translateX(0%) translateY(0%) ;
+}
+.last {
+  transform: rotate(90deg) translateZ(-.2px) scale(1.1) translateX(25vh) translateY(-8vh) ;
+}
+
+
+
+.img-wrapper img {
+  max-width: 45vh;
+  max-height: 50vh;
+  transition: .5s;
+  vertical-align: top;
+}
+
+
+
+
+/* RWD */
+@media only screen and (max-width: 1366px) {
+
+}
+
+@media only screen and (max-width: 1366px) {
+}
+
+@media only screen and (max-width: 1266px) {
+}
+
+@media only screen and (device-width: 1024px) and (device-height: 720px) {
+}
+
+@media only screen and (min-width: 768px) and (min-height: 1024px) {
+}
+
+@media only screen and (max-width: 769px) {
+}
+
+@media only screen and (min-width: 1000px) {
+}
+
+@media only screen and (max-width: 430px) {
+}
