@@ -244,7 +244,7 @@
   width: 53%;
   max-width: 302px;
   width: 100%;
-  transform: rotate(8deg);
+  /* transform: rotate(8deg); */
   display: flex;
   flex-direction: column;
   gap: 10px;
