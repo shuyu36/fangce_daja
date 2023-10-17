@@ -81,14 +81,18 @@
   width: 70%;
 }
 
-.map_text h1,
-h4,
-h5 {
+.map_text h1, h4, h5 {
   color: #fff;
   text-align: center;
+  line-height: 1.5;
 }
+
 .map_text h4 {
   margin-bottom: 15px;
+}
+
+.header_content h4 {
+  color: #002448;
 }
 
 .lane_information,

@@ -2,7 +2,6 @@
 }
 
 .carousel-item img {
-  border-radius: 0 0 200px 200px;
   height: 500px;
 }
 
@@ -11,6 +10,7 @@
 }
 
 .index_banner {
+  border-radius: 0 0 200px 200px;
 }
 
 .navbar {
@@ -151,14 +151,15 @@
   letter-spacing: 10.35px;
 }
 
-.more {
+.more a{
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 30px;
 }
 
 .more svg {
-  margin-right: -40px;
+  margin-right: -37px;
 }
 
 .more h1 {
@@ -170,23 +171,15 @@
 
 @media only screen and (max-width: 1776px) {
   .content_text_store img {
-    width: 170px;
-    height: 130px;
-  }
-  .content_text_store img {
     width: 145px;
     height: 110px;
   }
 
-  .carousel-item img {
-    border-radius: 0 0 150px 150px;
-    height: 500px;
-  }
 }
 
 @media only screen and (max-width: 1563px) {
   .index_banner {
-    /* border-radius: 0 0 150px 150px; */
+    border-radius: 0 0 150px 150px;
   }
   .content_text_store li {
     text-align: center;
@@ -210,10 +203,7 @@
   .content_title {
     width: 100%;
   }
-  .carousel-item img {
-    border-radius: 0 0 150px 150px;
-    height: 500px;
-  }
+
 }
 
 @media only screen and (max-width: 1366px) {
@@ -227,10 +217,7 @@
     flex-direction: column;
     align-items: center;
   }
-  .carousel-item img {
-    border-radius: 0 0 100px 100px;
-    height: 400px;
-  }
+
   .content_text_store li {
     text-align: center;
   }
@@ -268,6 +255,12 @@
   .content_title {
     padding: 20px;
   }
+  .index_banner {
+    border-radius: 0 0 100px 100px;
+  }
+  .carousel-item img {
+  height: 300px;
+  }
 }
 
 @media only screen and (max-width: 769px) {
@@ -303,8 +296,25 @@
     height: 280px;
   }
   .carousel-item img {
-    border-radius: 0 0 20px 20px;
     height: 300px;
+}
+
+  /* 将轮播图图片的路径更改为适合小屏幕的图片 */
+  .carousel-inner .carousel-item:nth-child(1) img {
+    /* 新的图片路径 */
+    content: url("https://w.tw.mawebcenters.com/0970018110/image/index_banner1_560.webp");
+  }
+  .carousel-inner .carousel-item:nth-child(2) img {
+    /* 新的图片路径 */
+    content: url("https://w.tw.mawebcenters.com/0970018110/image/index_banner2_560.webp");
+  }
+  .carousel-inner .carousel-item:nth-child(3) img {
+    /* 新的图片路径 */
+    content: url("https://w.tw.mawebcenters.com/0970018110/image/index_banner3_560.webp");
+  }
+  .carousel-inner .carousel-item:nth-child(4) img {
+    /* 新的图片路径 */
+    content: url("https://w.tw.mawebcenters.com/0970018110/image/index_banner4_560.webp");
   }
 }
 @media only screen and (max-width: 466px) {

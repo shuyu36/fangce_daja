@@ -1,5 +1,5 @@
 .top_banner {
-  background-image: url(/images/about_banner.png);
+  background-image: url(https://w.tw.mawebcenters.com/0970018110/image/about_banner.webp);
 }
 
 .line_white {
@@ -104,7 +104,7 @@ swiper-slide img {
 }
 
 .slide_text {
-  background-image: url(/images/slide_img.png);
+  background-image: url(https://w.tw.mawebcenters.com/0970018110/image/slide_img.webp);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -205,33 +205,6 @@ body {
   border: 13px solid #fff;
 }
 
-.side-scroll__label {
-  display: flex;
-  z-index: 1;
-  position: relative;
-  top: 55%;
-  left: 0;
-  align-items: center;
-  width: 100%;
-  height: 53px;
-  padding-top: 9px;
-  overflow: hidden;
-  transform: translateY(-50%);
-  border-top: 0.5px solid #fff;
-  border-bottom: 0.5px solid #fff;
-  display: none;
-}
-
-.scroll_text {
-  display: block;
-  background-image: url(/images/scroll_text.svg);
-  min-width: 1200px;
-  margin: 0 5px;
-  height: 30px;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
 .side-scroll__image p {
   color: #fff;
   font-weight: bold;
@@ -262,7 +235,7 @@ body {
   .content_about_block {
     margin: auto;
     /* margin-left: 7%; */
-    margin-top: -5%;
+    margin-top: -145px;
     margin-bottom: 150px;
     width: 77%;
   }
@@ -316,7 +289,7 @@ body {
   .content_about_block {
     margin: auto;
     /* margin-left: 7%; */
-    margin-top: -15%;
+    margin-top: -85px;
     margin-bottom: 150px;
     width: 90%;
   }
