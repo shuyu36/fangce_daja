@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const laneBlock = document.querySelector(".lane_block");
   const bridgeBlock = document.querySelector(".bridge_block");
-  const marketBlock = document.querySelector(".markrt_block");
+  const marketBlock = document.querySelector(".market_block");
 
   // 預設顯示
   laneBlock.style.display = "block";

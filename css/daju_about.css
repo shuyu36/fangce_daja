@@ -229,7 +229,6 @@ body {
   height: 150px;
   /* margin-top: 50px; */
 }
-
 /* RWD */
 @media only screen and (max-width: 1660px) {
   .content_about_block {
